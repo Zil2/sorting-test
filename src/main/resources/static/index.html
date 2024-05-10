@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Hogwarts School</title>
+</head>
+<body>
+
+<form th:action="@{/sortHat}" method="get">
+    <p>Welcome to Hogwarts and Let's sort your hat</p>
+
+    <div>
+        <label for="Name"> name:</label>
+        <input name="name" id="Name" value="your full name">
+    </div>
+    <p>   </p>
+
+    <div><input type="submit" value="Submit" /></div>
+</form>
+
+</body>
+</html>
