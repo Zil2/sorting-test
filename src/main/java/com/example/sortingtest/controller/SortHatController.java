@@ -9,6 +9,6 @@ public class SortHatController {
 
     @GetMapping(value="/sortHat")
     public String sortHat(){
-        return null;
+        return "index";
     }
 }
